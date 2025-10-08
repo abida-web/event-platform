@@ -1,8 +1,4 @@
-export async function POST() {
-  return Response.json({ status: "ok" });
-}
-
-/*import { createUser, deleteUser, updateUser } from "@/lib/actions/user.actions";
+import { createUser, deleteUser, updateUser } from "@/lib/actions/user.actions";
 import { clerkClient } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 
@@ -64,4 +60,4 @@ export async function POST(req: Request) {
   }
 
   return new Response("", { status: 200 });
-}*/
+}
